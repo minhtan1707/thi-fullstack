@@ -1,0 +1,133 @@
+.home-news
+	padding: 4.25rem
+	h2
+		text-align: center
+		position: relative
+		margin-bottom: 4rem
+		font-size: 1.9rem
+		font-weight: 600
+		span
+			color: black
+		&:after
+			content: ''
+			display: block
+			background: #b982c1
+			position: absolute
+			left: 50%
+			transform: translateX(-50%)
+			height: 3px
+			width: 72px
+			bottom: -1.25rem
+		&:before
+			content: ''
+			display: block
+			background: white
+			position: absolute
+			border-radius: 50%
+			left: 50%
+			transform: translateX(-50%)
+			height: 17px
+			width: 17px
+			border: solid 3px #b982c1
+			bottom: -1.8rem
+			z-index: 10
+	.item
+		a
+			text-decoration: none
+			figure
+				.img-item	
+					img
+						filter: grayscale(100%)
+						width: 100%
+				figcaption
+					h3
+						color: #000
+						font-size: 1rem
+						font-weight: 500
+						line-height: 1.2rem
+						margin-top: .75rem
+						margin-bottom: 0
+					time
+						color: darken(#fff,30%)
+						font-size: .85rem
+						line-height: .9rem
+					p
+						color: darken(#fff,35%)
+						line-height: 1.2rem
+						font-size: .9rem
+						height: 3.6rem
+						overflow: hidden
+						margin-top: .3rem
+			&:hover,
+			&:active
+				figure
+					.img-item
+						box-shadow: 0 0 0 3px #b982c1 inset
+						img
+							z-index: -1
+							filter: grayscale(0)
+					figcaption
+						h3
+							color: #b982c1
+						p
+							color: black
+	.owl-carousel
+		margin-top: 4.25rem
+		position: relative
+		.item
+			padding: .5ram
+		.owl-nav
+			height: 100%
+			button
+				i
+					display: block
+					width: 2rem
+					height: 2rem
+					font-size: 1.5rem
+					line-height: 2rem
+					margin: 1rem
+			+media-breakpoint-up(md)
+				button
+					border-radius: 0
+					position: absolute
+					top: 15%
+					background: #083e64
+					color: white
+					&.owl-prev
+						left: -3rem
+					&.owl-next
+						right: -3rem
+					i
+						margin: 0
+						font-size: .6rem
+//Header
+header
+	.navbar
+		padding: 0
+		.nav-item
+			.nav-link
+				line-height: 2.5rem
+				color: lighten (black,60%)
+			&:hover,
+			&.active
+				box-shadow: 3px 0 0 0 inset
+				.nav-link
+					color: #841f93
+			+media-breakpoint-down(md)
+				.nav-link
+					padding-left: 1rem
+			+media-breakpoint-up(lg)
+				&:hover,
+				&.active
+					box-shadow: 0 3px 0 0 inset
+
+//footer
+footer
+	p
+		display: block
+	ul
+		display: flex
+		flex-wrap: wrap
+		li.link-item
+			flex: 50%
+

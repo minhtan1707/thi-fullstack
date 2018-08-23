@@ -1,0 +1,64 @@
+extends _layout/layout
+
+block variables
+	- var title = 'Home'
+	- var description = 'Description for home page'
+	- var bodyclass = 'home'
+
+
+block body
+	section.home-news
+		.container
+			.row.news_title.section_title
+				.col
+					h2 TIN TỨC
+			.row
+				.col-md-4.item.mt-4.mt-md-0
+					a(href="#") 
+						figure
+							.img-item
+								img(src="./img/home_news_1.png", alt="", srcset="")
+							figcaption
+								h3 Chúng tôi là FullStack Vietnam
+								time 22/06/2018
+								p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti incidunt ex, autem dignissimos illum aperiam pariatur in explicabo corporis delectus totam! 
+				.col-md-4.item.mt-4.mt-md-0
+					a(href="#") 
+						figure
+							.img-item
+								img(src="./img/home_news_2.png", alt="", srcset="")
+							figcaption
+								h3 Chúng tôi là FullStack Vietnam
+								time 22/06/2018
+								p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti incidunt ex, autem dignissimos illum aperiam pariatur in explicabo corporis delectus totam! 
+				.col-md-4.item.mt-4.mt-md-0
+					a(href="#") 
+						figure
+							.img-item
+								img(src="./img/home_news_3.png", alt="", srcset="")
+							figcaption
+								h3 Chúng tôi là FullStack Vietnam
+								time 22/06/2018
+								p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti incidunt ex, autem dignissimos illum aperiam pariatur in explicabo corporis delectus totam!
+		.container
+			.row
+				.col
+					.owl-carousel.owl-theme
+						.item
+							img(src="./img/clients_1.png", alt="")
+						.item
+							img(src="./img/clients_2.png", alt="")
+						.item
+							img(src="./img/clients_3.png", alt="")
+						.item
+							img(src="./img/clients_4.png", alt="")
+						.item
+							img(src="./img/clients_5.png", alt="")
+						.item
+							img(src="./img/clients_6.png", alt="")
+						.item
+							img(src="./img/clients_2.png", alt="")
+						.item
+							img(src="./img/clients_3.png", alt="")
+						.item
+							img(src="./img/clients_4.png", alt="")
