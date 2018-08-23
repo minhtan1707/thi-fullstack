@@ -1,5 +1,5 @@
 .home-news
-	padding: 4.25rem
+	padding: 4.25rem 0
 	h2
 		text-align: center
 		position: relative
@@ -79,6 +79,9 @@
 		.owl-nav
 			height: 100%
 			button
+				border-radius: 0
+				background: #083e64
+				color: white
 				i
 					display: block
 					width: 2rem
@@ -88,11 +91,8 @@
 					margin: 1rem
 			+media-breakpoint-up(md)
 				button
-					border-radius: 0
 					position: absolute
-					top: 15%
-					background: #083e64
-					color: white
+					top: 0
 					&.owl-prev
 						left: -3rem
 					&.owl-next

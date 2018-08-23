@@ -6337,7 +6337,7 @@ footer img {
   max-width: 200px; }
 
 .home-news {
-  padding: 4.25rem; }
+  padding: 4.25rem 0; }
   .home-news h2 {
     text-align: center;
     position: relative;
@@ -6408,20 +6408,21 @@ footer img {
       padding: .5ram; }
     .home-news .owl-carousel .owl-nav {
       height: 100%; }
-      .home-news .owl-carousel .owl-nav button i {
-        display: block;
-        width: 2rem;
-        height: 2rem;
-        font-size: 1.5rem;
-        line-height: 2rem;
-        margin: 1rem; }
+      .home-news .owl-carousel .owl-nav button {
+        border-radius: 0;
+        background: #083e64;
+        color: white; }
+        .home-news .owl-carousel .owl-nav button i {
+          display: block;
+          width: 2rem;
+          height: 2rem;
+          font-size: 1.5rem;
+          line-height: 2rem;
+          margin: 1rem; }
       @media (min-width: 768px) {
         .home-news .owl-carousel .owl-nav button {
-          border-radius: 0;
           position: absolute;
-          top: 15%;
-          background: #083e64;
-          color: white; }
+          top: 0; }
           .home-news .owl-carousel .owl-nav button.owl-prev {
             left: -3rem; }
           .home-news .owl-carousel .owl-nav button.owl-next {
