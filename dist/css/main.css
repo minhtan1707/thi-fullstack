@@ -6409,16 +6409,15 @@ footer img {
     .home-news .owl-carousel .item {
       padding: .5ram; }
     .home-news .owl-carousel .owl-nav button {
-      border-radius: 0;
       background: #083e64;
-      color: white; }
+      color: white;
+      margin: 0 1rem; }
       .home-news .owl-carousel .owl-nav button i {
         display: block;
-        width: 2rem;
-        height: 2rem;
-        font-size: 1.5rem;
-        line-height: 2rem;
-        margin: 1rem; }
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.4rem;
+        line-height: 3rem; }
     @media (min-width: 768px) {
       .home-news .owl-carousel .owl-nav button {
         position: absolute;
