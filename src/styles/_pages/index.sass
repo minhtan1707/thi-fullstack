@@ -37,7 +37,6 @@
 			figure
 				.img-item	
 					img
-						filter: grayscale(100%)
 						width: 100%
 				figcaption
 					h3
@@ -58,26 +57,29 @@
 						height: 3.6rem
 						overflow: hidden
 						margin-top: .3rem
-			&:hover,
-			&:active
-				figure
-					.img-item
-						box-shadow: 0 0 0 3px #b982c1 inset
-						img
-							z-index: -1
-							filter: grayscale(0)
-					figcaption
-						h3
-							color: #b982c1
-						p
-							color: black
+			+media-breakpoint-up(md)
+				.img-item
+					img
+						filter: grayscale(100%)
+				&:hover,
+				&:active
+					figure
+						.img-item
+							box-shadow: 0 0 0 3px #b982c1 inset
+							img
+								z-index: -1
+								filter: grayscale(0)
+						figcaption
+							h3
+								color: #b982c1
+							p
+								color: black
 	.owl-carousel
 		margin-top: 4.25rem
 		position: relative
 		.item
 			padding: .5ram
 		.owl-nav
-			height: 100%
 			button
 				border-radius: 0
 				background: #083e64
