@@ -6427,7 +6427,7 @@ footer img {
         .home-news .owl-carousel .owl-nav button {
           position: absolute;
           top: 0;
-          transform: translateY(-50%); }
+          transform: translateY(-100%); }
           .home-news .owl-carousel .owl-nav button.owl-prev {
             right: 100%; }
           .home-news .owl-carousel .owl-nav button.owl-next {
