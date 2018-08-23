@@ -6391,7 +6391,7 @@ footer img {
       height: 3.6rem;
       overflow: hidden;
       margin-top: .3rem; }
-    @media (min-width: 768px) {
+    @media (min-width: 992px) {
       .home-news .item a .img-item img {
         filter: grayscale(100%); }
       .home-news .item a:hover figure .img-item, .home-news .item a:active figure .img-item {
